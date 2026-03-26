@@ -1,6 +1,7 @@
 services:
   - type: web
     name: be-todo
+    paln: free
     env: docker
     region: singapore
     dockerfilePath: ./backend/Dockerfile
