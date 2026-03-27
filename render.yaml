@@ -5,6 +5,7 @@ services:
     plan: free
     region: singapore
     dockerfilePath: ./assignment_1/todo-app/backend/Dockerfile
+    dockerContext: ./assignment_1/todo-app/backend
     envVars:
       - key: DB_HOST
         value: dpg-d6vuu0a4d50c7390hb90-a
@@ -25,6 +26,7 @@ services:
     plan: free
     region: singapore
     dockerfilePath: ./assignment_1/todo-app/frontend/Dockerfile
+    dockerContext: ./assignment_1/todo-app/frontend
     envVars:
       - key: REACT_APP_API_URL
         value: https://be-todo-xkgc.onrender.com
