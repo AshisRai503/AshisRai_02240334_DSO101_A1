@@ -25,9 +25,6 @@ services:
     plan: free
     region: singapore
     dockerfilePath: ./assignment_1/todo-app/frontend/Dockerfile
-    buildArgs:
-      - key: REACT_APP_API_URL
-        value: https://be-todo-xkgc.onrender.com
     envVars:
       - key: REACT_APP_API_URL
         value: https://be-todo-xkgc.onrender.com
