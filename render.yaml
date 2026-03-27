@@ -7,13 +7,13 @@ services:
     dockerfilePath: ./assignment_1/todo-app/backend/Dockerfile
     envVars:
       - key: DB_HOST
-        value: your-render-db-host
+        value: dpg-d6vuu0a4d50c7390hb90-a
       - key: DB_USER
-        value: your-render-db-user
+        value: ash5zero3
       - key: DB_PASSWORD
         sync: false
       - key: DB_NAME
-        value: your-render-db-name
+        value: db_sqwl
       - key: DB_PORT
         value: 5432
       - key: PORT
