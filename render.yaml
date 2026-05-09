@@ -3,6 +3,7 @@ services:
     name: be-todo-02240334
     runtime: docker
     plan: free
+    region: singapore
     dockerfilePath: ./todo-app/backend/Dockerfile
     dockerContext: ./todo-app/backend
     envVars:
@@ -15,6 +16,7 @@ services:
     name: fe-todo-02240334
     runtime: docker
     plan: free
+    region: singapore
     dockerfilePath: ./todo-app/frontend/Dockerfile
     dockerContext: ./todo-app/frontend
     envVars:
