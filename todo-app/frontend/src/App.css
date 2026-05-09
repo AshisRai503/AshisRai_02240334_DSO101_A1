@@ -1,0 +1,71 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.todo-container {
+  background: white;
+  padding: 30px;
+  width: 420px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-container h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.task-form button,
+.task-item button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 5px;
+}
+
+.task-item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-item span {
+  flex: 1;
+  cursor: pointer;
+}
+
+.task-item input {
+  flex: 1;
+  padding: 8px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.empty-message {
+  text-align: center;
+  color: gray;
+}
