@@ -89,9 +89,4 @@ AshisRai_02240334_DSO101_A1/
 ├── .gitignore
 └── README.md
 
-### Step 0
-
-**1.Draft** 
-
----
 
