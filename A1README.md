@@ -611,17 +611,13 @@ This proves the CI/CD flow:
 GitHub Commit → Render Auto Build → Render Auto Deploy → Live Website Updated
 ```
 
-### Screenshot: GitHub commit for auto deploy test
-
-![GitHub Auto Deploy Commit](screenshots/github-auto-deploy-commit.png)
-
 ### Screenshot: Render automatic deploy triggered
 
-![Render Auto Deploy](screenshots/render-auto-deploy.png)
+![Render Auto Deploy](screenshots/15.png)
 
 ### Screenshot: Updated live frontend after auto deploy
 
-![Auto Deployed Frontend](screenshots/auto-deployed-frontend.png)
+![Auto Deployed Frontend](screenshots/16.png)
 
 ---
 
