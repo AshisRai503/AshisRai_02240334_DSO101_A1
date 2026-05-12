@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" errors="0" time="0.463">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-05-12T14:04:27" time="0.374" tests="3">
+    <testcase classname=" valid task title should return true" name=" valid task title should return true" time="0.002">
+    </testcase>
+    <testcase classname=" empty task title should return false" name=" empty task title should return false" time="0">
+    </testcase>
+    <testcase classname=" spaces only task title should return false" name=" spaces only task title should return false" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
