@@ -644,13 +644,13 @@ ash5zero3/fe-todo:02240334
 Backend:
 
 ```text
-Paste your Part A backend Render URL here
+https://be-todo-qs5b.onrender.com
 ```
 
 Frontend:
 
 ```text
-Paste your Part A frontend Render URL here
+https://fe-todo-xnqh.onrender.com
 ```
 
 ## Part B - Blueprint Deployment
